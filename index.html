@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+    <meta charset="utf-8"/>
+    <title>Drag and Drop корзина покупателя</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="header.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="jquery-ui-1.9.2.custom.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+<h1>Корзина с Drag and Drop</h1>
+    <section id="product">
+        <ul class="clear">
+            <li data-id="1">
+                <a href="#">
+                    <img src="1.jpg" alt="">
+                    <h3>Хлебушек</h3>
+                    <p>Вкусный хлебушек для вашей семьи</p>
+                </a>
+            </li>
+            <li data-id="2">
+                <a href="#">
+                    <img src="2.jpg" alt="">
+            		<h3>Молоко</h3>
+                    <p>Только что из под коровы</p>
+                </a>
+            </li>
+            <li data-id="3">
+                <a href="#">
+                    <img src="3.jpg" alt="">
+            		<h3>Яйца</h3>
+                    <p>От лучших несушек страны</p>
+                </a>
+            </li>
+        </ul>
+  </section>
+
+
+    <aside id="sidebar">
+        <div class="basket">
+            <div class="basket_list">
+                <div class="head">
+                    <span class="name">Название товара</span>
+                    <span class="count">Кол-во</span>
+                </div>
+                <ul>                	 
+                </ul>
+            </div>
+        </div>
+
+    </aside>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
